@@ -1,5 +1,5 @@
 {
-  "name": "Start_up_react_app",
+  "name": "startup-react-app",
   "version": "1.0.0",
   "description": "Basic example react app",
   "scripts": {
@@ -89,7 +89,7 @@
     "react-router-dom": "~4.2.2",
     "react-tap-event-plugin": "~3.0.2"
   },
-  "private": true,
+  "private": false,
   "author": {
     "name": "Jhonatan Villanueva",
     "email": "jinvilaz@gmail.com"
