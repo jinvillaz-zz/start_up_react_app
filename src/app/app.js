@@ -16,25 +16,16 @@ class App extends React.Component {
 
     render() {
         return (
-            < MuiThemeProvider
-        muiTheme = {muiTheme} >
-            < Router >
-            < div >
-            < Route
-        exact
-        path = "/"
-        component = {TopContainer} / >
-            < Route
-        path = "/sample1"
-        component = {SampleContainer1} / >
-            < Route
-        path = "/sample2"
-        component = {SampleContainer2} / >
-            < / div >
-            < / Router >
-            < / MuiThemeProvider >
-    )
-        ;
+            <MuiThemeProvider muiTheme={muiTheme}>
+                <Router>
+                    <div>
+                        <Route exact path="/" component={TopContainer}/>
+                        <Route path="/sample1" component={SampleContainer1}/>
+                        <Route path="/sample2" component={SampleContainer2}/>
+                    </div>
+                </Router>
+            </MuiThemeProvider>
+        );
     }
 }
 

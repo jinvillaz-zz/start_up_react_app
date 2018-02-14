@@ -22,24 +22,18 @@ class _SampleContainer1 extends Component {
 
     render() {
         return (
-            < div >
-            < AppBar
-        title = "Sample App" / >
-            < Toolbar >
-            < ToolbarTitle
-        text = "Container: SampleContainer1" / >
-            < / Toolbar >
-            < List >
-            < ListItem > < Link
-        to = "/" > Top < / Link > < / ListItem >
-            < ListItem > < Link
-        to = "/sample1" > Sample1 < / Link > < / ListItem >
-            < ListItem > < Link
-        to = "/sample2" > Sample2 < / Link > < / ListItem >
-            < / List >
-            < / div >
-    )
-        ;
+            <div>
+                <AppBar title="Sample App"/>
+                <Toolbar>
+                    <ToolbarTitle text="Container: SampleContainer1"/>
+                </Toolbar>
+                <List>
+                    <ListItem><Link to="/">Top</Link></ListItem>
+                    <ListItem><Link to="/sample1">Sample1</Link></ListItem>
+                    <ListItem><Link to="/sample2">Sample2</Link></ListItem>
+                </List>
+            </div>
+        );
     }
 }
 

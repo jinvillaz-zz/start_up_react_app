@@ -9,14 +9,11 @@ class Sample extends Component {
 
     render() {
         return (
-            < div >
-            < h1 > Hello < / h1 >
-            < p > {this.props.title
-    }</
-        p >
-        < / div >
-    )
-        ;
+            <div>
+                <h1>Hello</h1>
+                <p>{this.props.title}</p>
+            </div>
+        );
     }
 }
 
