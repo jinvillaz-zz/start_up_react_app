@@ -1,6 +1,6 @@
-import {ReduceStore}  from 'flux/utils';
+import { ReduceStore }  from 'flux/utils';
 import Immutable from 'immutable';
-import {ActionTypes} from '../constants/constants';
+import { ActionTypes } from '../constants/constants';
 import AppDispatcher from '../dispatcher/dispatcher';
 
 class SampleStore extends ReduceStore {
@@ -17,7 +17,7 @@ class SampleStore extends ReduceStore {
             return state;
         case ActionTypes.TYPE_002:
             return Immutable.Map(action.data).set("text", "Flux is...")
-            .toJS();
+                .toJS();
         default:
             return state;
         }

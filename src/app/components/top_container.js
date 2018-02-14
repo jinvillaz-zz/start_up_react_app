@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
-import {Container} from 'flux/utils';
-import {Link} from 'react-router-dom';
+import React, { Component } from 'react';
+import { Container } from 'flux/utils';
+import { Link } from 'react-router-dom';
 import AppBar from 'material-ui/AppBar';
-import {Toolbar, ToolbarTitle} from 'material-ui/Toolbar';
-import {List, ListItem} from 'material-ui/List';
+import { Toolbar, ToolbarTitle } from 'material-ui/Toolbar';
+import { List, ListItem } from 'material-ui/List';
 import SampleStore from '../stores/store';
 
 class _TopContainer extends Component {

@@ -1,4 +1,4 @@
-import {something} from './index';
+import { something } from './index';
 
 describe('Test initial', () => {
     it('Should be retuns it is par', () => {
